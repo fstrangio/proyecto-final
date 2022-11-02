@@ -1,0 +1,195 @@
+.contenedor {
+    display: grid;
+    grid-template-areas: none;
+}
+
+a{
+    text-decoration: none;
+    margin-left: 40px;
+    margin-right: 40px;    
+}
+.imgChica{
+    width: 140px;
+    height: 100px;
+}
+
+#parrafoHeader{
+    list-style-type: none;
+    display: inline-block;
+    font-family: Sausage;
+    height: 100%;
+}
+
+h2 {
+    color: gray;
+}
+
+p {
+    color:black;
+}
+
+main {
+    background-color: #3FD4D6;
+}
+
+header {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: aqua;
+    grid-area: header;
+}
+
+footer {
+    background-color: white;
+    text-align: center;
+    background-color: aqua;
+    grid-area: footer;
+}
+
+.headerInicio {
+    background: url(../multimedia/portada1.jpg) no-repeat;
+    position:relative;
+    width: 100%;
+    /* height: 720px; */
+    background-position: 0px;
+    margin: auto;
+}
+
+.portada {
+    width: 100%;
+}
+
+.headerTienda {
+    background: url(../multimedia/portada2.jpg) no-repeat;
+    position:relative;
+    width: 1280px;
+    height: 720px;
+    background-position: 0px;
+    margin: auto;
+}
+
+.headerCanchas {
+    background: url(../multimedia/portada3.jpg) no-repeat;
+    position:relative;
+    width: 1280px;
+    height: 720px;
+    background-position: 0px;
+    margin: auto;
+}
+
+.headerTop10 {
+    background: url(../multimedia/portada4.jpg) no-repeat;
+    position:relative;
+    width: 1280px;
+    height: 720px;
+    background-position: 0px;
+    margin: auto;
+}
+
+.headerTutoriales {
+    background: url(../multimedia/portada5.jpg) no-repeat;
+    position:relative;
+    width: 1280px;
+    height: 720px;
+    background-position: 0px;
+    margin: auto;
+}
+
+.headerProximoseventos {
+    background: url(../multimedia/portada6.jpg) no-repeat;
+    position:relative;
+    width: 1280px;
+    height: 720px;
+    background-position: 0px;
+    margin: auto;
+}
+
+.headerGaleria {
+    background: url(../multimedia/portada8.jpg) no-repeat;
+    position:relative;
+    width: 1280px;
+    height: 720px;
+    background-position: 0px;
+    margin: auto;
+}
+
+.headerContacto {
+    background: url(../multimedia/portada7.jpg) no-repeat;
+    position:relative;
+    width: 1280px;
+    height: 720px;
+    background-position: 0px;
+    margin: auto;
+}
+
+@font-face {
+    font-family: Okine;
+    src: url(okine.ttf);
+    
+}
+
+@font-face {
+    font-family: ESPN;
+    src: url(espn.ttf);
+}
+
+@font-face {
+    font-family: Sausage;
+    src: url(sausage.ttf);
+}
+
+.tituloPrincipal {
+    font-family: ESPN;
+    font-weight: 100px;
+}
+
+.titulo2 {
+    font-family: ESPN;
+    font-weight: 80px;
+}
+
+.parrafo {
+    color: black;
+    font-family: Okine;
+    font-size: 16px;
+}
+
+.whatsapp {
+    display:scroll;
+    position:fixed;
+    bottom: 80px;
+    right:0px;
+    height: 80px;
+    width: 160px;
+}
+
+#parrafoFooter {
+    font-family: Sausage;
+    font-weight: 80px;
+}
+
+.galeriaFlex{
+    width: 100%;
+    height: 100%;
+    margin: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.imagenFlex{
+    width: 100%;
+    height: 100%;
+    background-color: #3FD4D6;
+}
+
+.imagenFlex:hover {
+    filter: grayscale(90%);
+}
+
+@media (max-width: 600px) {
+    .barraNavegacion {
+        color: red;
+    }
+}
